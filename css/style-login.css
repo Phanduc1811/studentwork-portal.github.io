@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.container .panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: translate(-50%, 50%);
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.container .panel .row {
+  display: flex;
+  justify-content: center;
+}
+.container .panel .row img {
+  width: 200px;
+}
+.container .panel .ctsv {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.container .panel .text {
+  padding: 10px;
+}
+.container .panel .text label {
+  font-size: 12pt;
+  width: 150px;
+}
+.container .panel .text input {
+  width: 200px;
+  height: 25px;
+  font-size: 12pt;
+}
+.container .panel .btn-login {
+  text-align: center;
+  padding: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}/*# sourceMappingURL=style-login.css.map */

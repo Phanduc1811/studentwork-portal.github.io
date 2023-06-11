@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Cổng Thông Tin Công Tác Sinh Viên</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_confirm.css">
+    <link rel="shortcut icon" type="image/png" href="../image/logo.png" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+</head>
+<script>
+    $(function () {
+        $(".the-header").load("./share/header.html");
+        $(".the-menu").load("./share/menu.html");
+        $(".the-footer").load("./share/footer.html")
+    });
+    $(document).ready(function () {
+        $('#example').DataTable();
+        $('#example-1').DataTable();
+        $('#example-2').DataTable();
+        $('#example_filter').empty();
+        $('#example-1_filter').empty();
+        $('#example-2_filter').empty();
+        //$(".dataTables_empty").replaceWith('<td valign="top" colspan="7" class="dataTables_empty">Không có dữ liệu</td>');
+    });
+</script>
+
+<body>
+    <section class="container-fluid out-the-header">
+        <section class="container the-header"></section>
+    </section>
+    <section class="container-fluid out-the-menu">
+        <section class="container the-menu">
+
+        </section>
+    </section>
+
+
+    <section class="container the-form">
+        <div class="row">
+            <ul class="nav nav-tabs nav-justified">
+                <li role="presentation" class="active"><a data-toggle="tab" href="#form1">Đơn xin xác nhận hoãn
+                        nghĩa vụ quân sự</a></li>
+                <li role="presentation"><a data-toggle="tab" href="#form2">Giấy xác nhận vay vốn sinh viên</a>
+                </li>
+                <li role="presentation"><a data-toggle="tab" href="#form3">Đơn xin xác nhận khác</a></li>
+            </ul>
+        </div>
+        <div class="row tab-content">
+            <div role="tabpanel" class="tab-pane active" id="form1">
+                <table id="example" class="display">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên form</th>
+                            <th>Tên sinh viên</th>
+                            <th>Ngày tạo</th>
+                            <th>Trạng thái</th>
+                            <th>Ngày trả</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="form2">
+                <table id="example-1" class="display">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên form</th>
+                            <th>Tên sinh viên</th>
+                            <th>Ngày tạo</th>
+                            <th>Trạng thái</th>
+                            <th>Ngày trả</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="form3">
+                <table id="example-2" class="display">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên form</th>
+                            <th>Tên sinh viên</th>
+                            <th>Ngày tạo</th>
+                            <th>Trạng thái</th>
+                            <th>Ngày trả</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="row row_btn">
+            <!-- <a href="./create_form.html"><button class="btn btn-success btn_createForm"> Tạo giấy xác nhận</button></a> -->
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Tạo giấy xác
+                nhận</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Giấy xác nhận hoãn nghĩa vụ quân sự</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" class="form_confirm">
+                                <table>
+                                    <tr class="">
+                                        <td colspan="2">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Độc lập - Tự do - Hạnh phúc</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">ĐƠN XIN XÁC NHẬN</td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">Kính gửi: Ban Giám Hiệu Trường Đại học Công nghệ Sài Gòn</td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Họ và tên:
+                                            <input type="text" name="" id="ip1">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Sinh ngày:
+                                            <input type="number" name="" id="ip2"> tháng
+                                            <input type="number" name="" id="ip2"> năm
+                                            <input type="number" name="" id="ip2">
+
+                                            &nbsp;&nbsp;&nbsp;Giới tính:
+                                            <input type="radio" name="gender" id="ip3" value="Nam" checked> Nam
+                                            <input type="radio" name="gender" id="ip3" value="Nữ"> Nữ
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Hộ khẩu thường trú:
+                                            <input type="text" name="" id="ip4">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Số điện thoại:
+                                            <input type="text" name="" id="ip5">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Hiện tại đang học lớp:
+                                            <input type="text" name="" id="ip6">
+
+                                            Mã số sinh viên:
+                                            <input type="text" name="" id="ip7">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Hệ đào tạo:
+                                            <input type="text" name="" id="ip8">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Khóa học:
+                                            <input type="text" name="" id="ip9">
+
+                                            &nbsp;&nbsp;&nbsp;&nbsp; Loại hình đào tạo:
+                                            <input type="text" name="" id="ip10">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Khoa:
+                                            <input type="text" name="" id="ip11">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            <p>Nay tôi làm đơn này gửi tới Ban Giám Hiệu Trường Đại học Công nghệ Sài
+                                                Gòn xin xác nhận tôi hiện là sinh viên của Trường, năm học: <input
+                                                    type="text" name="" id="ip12"></p>
+
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            <p>Lý do xác nhận: Bổ sung hồ sơ xin tạm hoãn nghĩa vụ quân sự tại địa
+                                                phương.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form tr_date_create">
+                                        <td id="td_1"></td>
+                                        <td id="td_2">
+                                            <p>
+                                                Tp.Hồ Chí Minh, Ngày
+                                                <input type="text" name="" id="ip13"> tháng
+                                                <input type="text" name="" id="ip13"> năm
+                                                <input type="text" name="" id="ip13">
+                                            </p>
+                                            <p id="p1">
+                                                Người làm đơn
+                                            </p>
+                                            <p id="p2">
+                                                Phan Châu Đức
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">XÁC NHẬN CỦA TRƯỜNG ĐẠI HỌC CÔNG NGHỆ SÀI GÒN</td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Xác nhận sinh viên: <input type="text" name="" id="ip14">
+                                            &nbsp; Sinh ngày: <input type="text" name="" id="ip15">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Hiện là sinh viên năm thứ
+                                            <input type="text" name="" id="ip16">
+                                            &nbsp; Học kỳ: <input type="text" name="" id="ip17">
+                                            &nbsp; Năm học <input type="text" name="" id="ip18">
+                                            &nbsp; Khóa học: <input type="text" name="" id="ip19">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            MSSV: <input type="text" name="" id="ip20">
+                                            Lớp: <input type="text" name="" id="ip21">
+                                            Khoa: <input type="text" name="" id="ip22">
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            Hệ đào tạo: <input type="text" name="" id="ip23">
+                                            chính quy của Trường Đại học Công nghệ Sài Gòn
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form tr_date_create">
+                                        <td id="td_1"></td>
+                                        <td id="td_2">
+                                            <p>
+                                                Tp.Hồ Chí Minh, Ngày
+                                                <input type="text" name="" id="ip13"> tháng
+                                                <input type="text" name="" id="ip13"> năm
+                                                <input type="text" name="" id="ip13">
+                                            </p>
+                                            <p id="p1">
+                                                HIỆU TRƯỞNG
+                                            </p>
+                                            <p id="p2">
+                                                PGS, TS. Cao Hào Thi
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_form">
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p>Thêm hình minh chứng</p> <input type="file" name="" id="">
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid out-the-footer">
+        <section class="container the-footer"></section>
+    </section>
+</body>
+
+</html>

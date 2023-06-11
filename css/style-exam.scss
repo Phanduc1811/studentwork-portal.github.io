@@ -1,0 +1,39 @@
+.the-panel {
+    .row{
+        display: flex;
+        margin-top: 20px;
+        .panel {
+            width: 350px;
+            border: 1px solid #F8FFDB;
+            margin: 10px;
+            .panel-heading{
+                text-align: center;
+                font-size: 15pt;
+                background-color: #B6E2A1;
+                height: 70px;
+                line-height: 50px;
+            }
+            .panel-body{
+                font-size: 12pt;
+                height: 50px;
+            }
+            .panel-footer{
+                text-align: center;
+                height: 50px;
+                input{
+                    font-size: 12pt;
+                    width: 60px;
+                    background-color: #B6E2A1;
+                    border: none;
+                    border-radius: 5px;
+                    height: 25px;
+                    &:hover{
+                        font-weight: bold;
+                        color: darkblue;
+                    }
+                }
+            }
+        }
+    }
+    
+}

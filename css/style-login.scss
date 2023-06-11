@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+
+    .panel {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: fit-content;
+        transform: translate(-50%, 50%);
+        border: 1px solid #000000;
+        border-radius: 10px;
+
+        .row {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 200px;
+
+            }
+
+        }
+        .ctsv{
+            text-align: center;
+            font-size: 12pt;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        .text {
+            padding: 10px;
+            //text-align: center;
+
+            label {
+                font-size: 12pt;
+                width: 150px;
+            }
+
+            input {
+                width: 200px;
+                height: 25px;
+                font-size: 12pt;
+            }
+        }
+
+        .btn-login {
+            text-align: center;
+            padding: 5px;
+            font-size: 12pt;
+            font-weight: bold;
+        }
+    }
+
+}

@@ -1,0 +1,75 @@
+.the-form {
+  margin-top: 30px;
+}
+.the-form .tab-content .tab-pane {
+  margin-top: 50px;
+}
+.the-form .tab-content .tab-pane .display {
+  width: 100%;
+}
+.the-form .row_btn {
+  text-align: center;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm {
+  display: flex;
+  justify-content: center;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table {
+  width: 210mm;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form {
+  text-align: start;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td {
+  padding: 5px 0px 5px 0px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.5px solid #000000;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip2 {
+  width: 60px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip4 {
+  width: 530px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip14 {
+  width: 350px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip16 {
+  width: 50px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip17 {
+  width: 50px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip18 {
+  width: 130px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_form td #ip19 {
+  width: 130px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create {
+  width: 100%;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create #td_1 {
+  width: 45%;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create #td_2 {
+  width: 55%;
+  text-align: center;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create #td_2 #ip13 {
+  width: 50px;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create #td_2 #p1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.the-form .row_btn .modal .modal-dialog .modal-content .modal-body .form_confirm table .tr_date_create #td_2 #p2 {
+  padding-top: 60px;
+  text-align: center;
+}/*# sourceMappingURL=style_confirm.css.map */

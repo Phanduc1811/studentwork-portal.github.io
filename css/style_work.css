@@ -1,0 +1,12 @@
+.the-content .the-row .the-col .thumbnail img {
+  height: 80px;
+  width: 80px;
+}
+.the-content .the-row .the-col .thumbnail .caption h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+.the-content .the-row .the-col .thumbnail .caption p {
+  padding-top: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style_work.css.map */

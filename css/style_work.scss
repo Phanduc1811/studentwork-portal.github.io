@@ -1,0 +1,25 @@
+.the-content {
+    .the-row {
+        .the-col {
+            .thumbnail {
+
+                img {
+                    height: 80px;
+                    width : 80px;
+                }
+
+                .caption {
+                    h3 {
+                        text-align : center;
+                        padding-top: 10px;
+                    }
+
+                    p {
+                        padding-top: 10px;
+                        text-align : center;
+                    }
+                }
+            }
+        }
+    }
+}

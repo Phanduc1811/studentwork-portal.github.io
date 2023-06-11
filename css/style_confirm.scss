@@ -1,0 +1,110 @@
+.the-form {
+    margin-top: 30px;
+    .tab-content {
+        .tab-pane {
+            margin-top: 50px;
+
+            .display {
+                width: 100%;
+            }
+        }
+    }
+
+    .row_btn {
+        text-align: center;
+
+        .modal {
+            .modal-dialog {
+                .modal-content {
+                    .modal-body {
+                        .form_confirm {
+                            display: flex;
+                            justify-content: center;
+
+                            table {
+                                width: 210mm;
+                                //height: 297mm;
+                                height: fit-content;
+
+                                .tr_form {
+                                    text-align: start;
+
+                                    td {
+                                        padding: 5px 0px 5px 0px;
+
+                                        input {
+                                            border-top: none;
+                                            border-left: none;
+                                            border-right: none;
+                                            border-bottom: 0.5px solid #000000;
+                                        }
+
+                                        #ip2 {
+                                            width: 60px;
+                                        }
+
+                                        #ip4 {
+                                            width: 530px;
+                                        }
+
+                                        #ip14 {
+                                            width: 350px;
+                                        }
+
+                                        #ip16 {
+                                            width: 50px;
+                                        }
+
+                                        #ip17 {
+                                            width: 50px;
+                                        }
+
+                                        #ip18 {
+                                            width: 130px;
+                                        }
+
+                                        #ip19 {
+                                            width: 130px;
+                                        }
+
+                                    }
+                                }
+
+                                .tr_date_create {
+                                    width: 100%;
+
+                                    #td_1 {
+                                        width: 45%;
+                                    }
+
+                                    #td_2 {
+                                        width: 55%;
+                                        text-align: center;
+
+                                        #ip13 {
+                                            width: 50px;
+                                        }
+
+                                        #p1 {
+                                            padding-top: 20px;
+                                            text-align: center;
+                                        }
+
+                                        #p2 {
+                                            padding-top: 60px;
+                                            text-align: center;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+        }
+    }
+}
