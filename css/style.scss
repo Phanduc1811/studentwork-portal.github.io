@@ -143,7 +143,6 @@ video {
                 .menu-in {
                     ul {
                         li {
-
                             a {
                                 color: #034EA2;
                                 font-size: 12pt;
@@ -167,56 +166,58 @@ video {
 .the-content {
     margin-top: 20px;
     background-color: #f0f4f6;
-    .col-l {
-        .title {
-            margin: 10px 0px 10px 0px;
-            p {
-                font-size: 15pt;
+    .in-the-content{
+        .col-l {
+            .title {
+                margin: 10px 0px 10px 0px;
+                p {
+                    font-size: 15pt;
+                }
             }
-        }
-
-        .notify {
-            .panel {
-                .panel-heading {
-                    a {
-                        color: #ffffff;
-                        text-decoration: none;
-                        &:hover{
-                            color: crimson
+    
+            .notify {
+                .panel {
+                    .panel-heading {
+                        a {
+                            color: #ffffff;
+                            text-decoration: none;
+                            &:hover{
+                                color: crimson
+                            }
                         }
                     }
                 }
-            }
-            .read-more{
-                text-align: end;
+                .read-more{
+                    text-align: end;
+                }
             }
         }
-    }
-    .col-r{
-        .title{
-            margin: 10px 0px 10px 0px;
-            p{
-                font-size: 15pt;
-            }
-            
-        }
-        .work{
-            .row-work{
+        .col-r{
+            .title{
+                margin: 10px 0px 10px 0px;
+                p{
+                    font-size: 15pt;
+                }
                 
-                .col{
-                    .thumbnail{
-                        height: 200px;
-                        img{
-                            width: 60px;
-                            height: 60px;
-                        }
-                        .caption{
-                            h3{
-                                text-align: center;
-                                margin: 10px;
+            }
+            .work{
+                .row-work{
+                    
+                    .col{
+                        .thumbnail{
+                            height: 200px;
+                            img{
+                                width: 60px;
+                                height: 60px;
                             }
-                            p{
-                                text-align: center;
+                            .caption{
+                                h3{
+                                    text-align: center;
+                                    margin: 10px;
+                                }
+                                p{
+                                    text-align: center;
+                                }
                             }
                         }
                     }

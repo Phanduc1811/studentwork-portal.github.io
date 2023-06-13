@@ -1,0 +1,34 @@
+.out-the-qr {
+  margin: 50px;
+}
+.out-the-qr .the-qr {
+  width: 50%;
+}
+.out-the-qr .the-qr .gen-qrcode #generate-form {
+  display: flex;
+  flex-direction: column;
+}
+.out-the-qr .the-qr .gen-qrcode #generate-form input {
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+}
+.out-the-qr .the-qr .gen-qrcode #generate-form select {
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+}
+.out-the-qr .the-qr .gen-qrcode #generate-form button {
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+}
+.out-the-qr .the-qr #generated #save-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.out-the-qr .the-qr #generated #qrcode img {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style_qrcode.css.map */

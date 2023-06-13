@@ -144,40 +144,40 @@ video {
   margin-top: 20px;
   background-color: #f0f4f6;
 }
-.the-content .col-l .title {
+.the-content .in-the-content .col-l .title {
   margin: 10px 0px 10px 0px;
 }
-.the-content .col-l .title p {
+.the-content .in-the-content .col-l .title p {
   font-size: 15pt;
 }
-.the-content .col-l .notify .panel .panel-heading a {
+.the-content .in-the-content .col-l .notify .panel .panel-heading a {
   color: #ffffff;
   text-decoration: none;
 }
-.the-content .col-l .notify .panel .panel-heading a:hover {
+.the-content .in-the-content .col-l .notify .panel .panel-heading a:hover {
   color: crimson;
 }
-.the-content .col-l .notify .read-more {
+.the-content .in-the-content .col-l .notify .read-more {
   text-align: end;
 }
-.the-content .col-r .title {
+.the-content .in-the-content .col-r .title {
   margin: 10px 0px 10px 0px;
 }
-.the-content .col-r .title p {
+.the-content .in-the-content .col-r .title p {
   font-size: 15pt;
 }
-.the-content .col-r .work .row-work .col .thumbnail {
+.the-content .in-the-content .col-r .work .row-work .col .thumbnail {
   height: 200px;
 }
-.the-content .col-r .work .row-work .col .thumbnail img {
+.the-content .in-the-content .col-r .work .row-work .col .thumbnail img {
   width: 60px;
   height: 60px;
 }
-.the-content .col-r .work .row-work .col .thumbnail .caption h3 {
+.the-content .in-the-content .col-r .work .row-work .col .thumbnail .caption h3 {
   text-align: center;
   margin: 10px;
 }
-.the-content .col-r .work .row-work .col .thumbnail .caption p {
+.the-content .in-the-content .col-r .work .row-work .col .thumbnail .caption p {
   text-align: center;
 }
 
